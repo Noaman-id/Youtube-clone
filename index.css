@@ -1,0 +1,683 @@
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+
+.Navigation-bar {
+    width: 100%;
+    height: 56px;
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.double {
+    margin-left: 15px;
+    display: flex;
+    width: 200px;
+    height: 100%;
+    align-items: center;
+    gap: 15px;
+}
+
+.Three-bars {
+    margin-left: 0;
+    flex-direction: column;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.Three-bars:hover {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.088);
+    border-radius: 50%;
+}
+
+.Bars{
+    margin-top: 10px;
+    width: 20px;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+}
+
+.Bar {
+    margin: 5px;
+    width: 20px;
+    height: 1px;
+    justify-self: center;
+    align-self: end;
+    background-color: #0F0F0F;
+}
+
+.YT-logo {
+    margin-left: -9px;
+    width: 120px;
+    height: 70px;
+    background-image: url(./assets/unnamed.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.Search-mic {
+    height: 40px;
+    width: 620px;
+    display: flex;
+    align-items: center;
+}
+
+.Search-bar {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+.Search {
+    width: 100%;
+    height: 100%;
+    padding: 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Search-button {
+    width: 75px;
+    height: 40px;
+    background: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.switch {
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.045);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.mic-on {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    transition: all .3s ease-in-out;
+}
+
+#checkbox {
+    display: none;
+}
+
+.Bell{
+    margin-top: 5px;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+}
+
+.theBell{
+    width: 35px;
+    height: 35px;
+}
+
+.theBell:hover{
+    background-color: rgba(0, 0, 0, 0.166);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.Doawnload{
+    margin-top: 5px;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+}
+
+.Download{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.Download:hover{
+    background-color: rgba(0, 0, 0, 0.166);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.Profile-bar {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.Profile-circle, .Profile-circle1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.Profile img {
+    margin-top: 4px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 640px;
+}
+
+.hotbar {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
+}
+
+.hotbar:hover {
+    scrollbar-color: #0000006d transparent;
+}
+
+.HSS, .HSS2, .HSS3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Shape {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.Shape:hover {
+    background-color: rgba(0, 0, 0, 0.088);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.house, .shortlogo, .subslogo, 
+.his, .play, .vid, 
+.walogo, .like, .clip {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+i.material-icons {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0 5px 14px;
+}
+
+h3, h4 {
+    font-size: 14px;
+}
+
+h4 {
+    margin-left: 15px;
+}
+
+.subscri {
+    margin-left: 20px;
+}
+
+.HSS3 .Profile-circle1 {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    margin-top: 15px;
+    background-color: #00000021;
+}
+
+.You{
+    margin-bottom: 10px;
+}
+
+.the-you:hover{
+    background-color: rgba(0, 0, 0, 0.201);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.subscri{
+    margin-left: 7px;
+}
+.main-min{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+.content-bar{
+    display: flex;
+    width: 1530px;
+    height: 56px;
+    background-color: #FFFFFF;
+    gap: 13px;
+}
+
+.choose{
+    display: flex;
+    margin-top: 10px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.045);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.choose:hover{
+    background-color: rgba(0, 0, 0, 0.166);
+}
+
+h6{
+    margin: 13px;
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.All{
+    background-color: black;
+}
+
+.All:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.Allt{
+    color: white;
+}
+
+.content{
+    display: flex;
+    height: 400px;
+}
+
+.top-videos{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video{
+    display: flex;
+    width: 410px;
+    height: 350px;
+    background-color: transparent;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.video:hover{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.049);
+}
+
+.thumbnail{
+    margin: 10px;
+    width: 390px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.image1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(https://i.ytimg.com/vi/ICT-SZzjaT4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBVOLE0g-ZMRf6xsYiE5j4WnU_0Hw);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.image1:hover{
+    background-image: url(https://i.ytimg.com/an_webp/0bJV_IK_MPA/mqdefault_6s.webp?du=3000&sqp=COCAnb8G&rs=AOn4CLDHW75qpiO3-j5Bby8cFHXnKJgznA);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.image2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(https://img.youtube.com/vi/4B9NpjDDReY/maxresdefault.jpg
+    );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.image2:hover{
+    background-image: url(https://i.ytimg.com/an_webp/4B9NpjDDReY/mqdefault_6s.webp?du=3000&sqp=CMr5nL8G&rs=AOn4CLAF-V2mX7lFJsmh0YRhqbG6yq5urg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.image3{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(https://i.ytimg.com/vi/KDCkgXCzUtI/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGFogHCh_MA8=&rs=AOn4CLBg7-mvKwfwQrU_vXB32Ko0sih23g);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.image3:hover{
+    background-image: url(./assets/mqdefault_6s.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+
+.time{
+    display: flex;
+    width: fit-content;
+    background-color: #0f0f0f89;
+    border-radius: 3px;
+    justify-self: end;
+    margin-right: 15px;
+    margin-top: -30px;
+}
+
+.time1{
+    margin: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.image2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.image3{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.under-thumbnail{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 100px;
+}
+
+.channel-profil1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(https://yt3.googleusercontent.com/ytc/AIdro_mHxfKz3n2cuQ7EAgJCsW577qgJb5-edooq-8e71txjKfQ=s160-c-k-c0x00ffffff-no-rj);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.channel-profil2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(https://yt3.googleusercontent.com/ON7McPAN1PPwcoea0miqYUj8qhURXLUYyb8XO9TipzuVbQ2EuggPqTzoQ0xG_6ThkYU5FJB30g=s160-c-k-c0x00ffffff-no-rj);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.channel-profil3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(https://yt3.googleusercontent.com/ytc/AIdro_lN5gBC5rm8DPmO_RlvIaHhaN9NiYXBwsWx2R3iZF92Fw=s160-c-k-c0x00ffffff-no-rj);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.clone{
+    display: flex
+}
+
+.Title{
+    font-size: 16px;
+    margin-left: 10px;
+    width: 90%;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.channel-name{
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #02020281;
+}
+
+.views{
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #02020281;
+}
+
+.add{
+    display: flex;
+    width: 100%;
+}
+
+.more{
+    margin-top: 13px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://img.icons8.com/?size=100&id=16074&format=png&color=000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-self: end;
+    rotate: 90deg;
+}
+
+.SHORTSlogo{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.SHORTS{
+    background-image: url(https://img.icons8.com/?size=100&id=ot8QhAKun4rZ&format=png&color=000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.Shortsvideo{
+    display: flex;
+    gap: 15px;
+    padding: 7px;
+}
+
+.theshort{
+    margin-top: 35px;
+    display: flex;
+    width: 300px;
+    height: 500px;
+    flex-direction: column;
+    cursor: pointer;
+}   
+
+.ima1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/0jyVaTrpmZ4/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCR0AOe6M7-neRopMACxOXe3PTFOg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ima2{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/LX-38dInt3o/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCamcq-T0IH6LfX7XfFmCZHm65OuQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ima3{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/3E3WCdYhlsc/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDJtExHvHHrwDddMZhxi3MvVqldCA);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ima4{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/RkvmnJfOrww/oar2.jpg?sqp=-oaymwEoCIMEENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDAQo6drQ3oDPMJhrCO0vqCr9dhLw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ima5{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/3YoB7repdbo/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAi4vLR1xPljq2yKFcNKKN3En5Ijw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tilt{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: end;
+}
+
+.title{
+    margin-top: 10px;
+    margin-left: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+}
+.more1{
+    margin-top: 10px;
+    rotate: 90deg;
+    background-image: url(https://img.icons8.com/?size=100&id=16074&format=png&color=000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.thum{
+    border-radius: 10px;
+    width: 100%;
+    height: 420px;
+}
+.views10{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #02020281;
+    margin-bottom: -10px;
+}

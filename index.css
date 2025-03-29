@@ -418,7 +418,7 @@ h6{
     background-repeat: no-repeat;  
 }
 .image1:hover{
-    background-image: url(https://i.ytimg.com/an_webp/0bJV_IK_MPA/mqdefault_6s.webp?du=3000&sqp=COCAnb8G&rs=AOn4CLDHW75qpiO3-j5Bby8cFHXnKJgznA);
+    background-image: url(./assets/mqdefault_6s\ \(1\).webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -428,14 +428,13 @@ h6{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background-image: url(https://img.youtube.com/vi/4B9NpjDDReY/maxresdefault.jpg
-    );
+    background-image: url(https://img.youtube.com/vi/4B9NpjDDReY/maxresdefault.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;  
 }
 .image2:hover{
-    background-image: url(https://i.ytimg.com/an_webp/4B9NpjDDReY/mqdefault_6s.webp?du=3000&sqp=CMr5nL8G&rs=AOn4CLAF-V2mX7lFJsmh0YRhqbG6yq5urg);
+    background-image: url(./assets/mqdefault_6s\ \(2\).webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
